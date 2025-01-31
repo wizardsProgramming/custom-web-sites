@@ -1,0 +1,165 @@
+:root {
+    --primary-dark: #3E2A1F; /* Dark earthy brown with a warmer, cream touch */
+    --secondary-gold: #D1B17C; /* Lighter ancient gold with a creamy tone */
+    --light-parchment: #F5E8C7; /* Creamier aged parchment */
+    --dark-green: #6C7A4F; /* Lighter, sage green with a hint of cream */
+    --background-dark: #2A1C16; /* Dark shadow with a cream accent */
+    --text-light: #F4E1A1; /* Creamy old-paper text */
+    --background-color: var(--light-parchment); /* Soft parchment color */
+    --text-color: #4A4A4A; /* Soft contrast for readability */
+}
+
+/* Custom Gamer Logo Insertion */
+.custom-gamer-logo-insertion {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: var(--background-color); /* Soft parchment background */
+}
+
+.custom-gamer-logo-examples {
+    background-color: var(--primary-dark); /* Dark earthy background */
+    display: flex;
+    flex-direction: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    overflow: scroll;
+}
+
+/* Projects Section */
+.projects ul {
+    display: flex;
+    justify-content: center;
+}
+
+.projects ul li:hover {
+    color: var(--secondary-gold); /* Gold hover effect */
+    cursor: pointer;
+}
+
+/* Start of Projects Container */
+.projects-container {
+    text-align: center;
+}
+
+.projects-container h1 {
+    margin: 1rem;
+    margin-top: 2%;
+    color: var(--primary-dark); /* Dark earthy text color for headings */
+}
+
+.projects-container li {
+    margin: 2rem;
+    list-style-type: none;
+}
+
+/* Gamer Logo Styling */
+.gamer-logo {
+    width: 275px;
+    height: 275px;
+    margin: 1rem;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    border: 2px solid var(--secondary-gold); /* Soft gold border */
+}
+
+
+.business-logo {
+    width: 275px;
+    height: 275px;
+    margin: 1rem;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    border: 2px solid var(--secondary-gold); /* Soft gold border */
+}
+
+.gamer-logo:hover {
+    box-shadow: 2px 2px 2px 4px var(--secondary-gold); /* Gold shadow effect */
+    z-index: 2;
+}
+
+/* Change Background Containers */
+.change-background-container {
+    margin: 0 auto;
+}
+
+.change-background {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--light-parchment); /* Soft parchment background */
+}
+
+.change-background-buttons-container {
+    margin: 0 auto;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.change-background-buttons-container button {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--primary-dark); /* Dark background for buttons */
+    color: var(--text-light); /* Light text color */
+    border: none;
+    cursor: pointer;
+}
+
+.change-background-buttons-container button:hover {
+    background-color: var(--secondary-gold); /* Gold hover for buttons */
+}
+
+/* Mobile Styles */
+.change-background-container-mobile {
+    margin: 0 auto;
+}
+
+.change-background-mobile {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+.change-background-buttons-container-mobile {
+    margin: 0 auto;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.change-background-buttons-container-mobile button {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--primary-dark);
+    color: var(--text-light);
+    border: none;
+    cursor: pointer;
+}
+
+.change-background-button-g {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.change-background-button-g:hover {
+    transition: 1s;
+    background-color: var(--secondary-gold); /* Gold hover effect */
+}
+
+
+

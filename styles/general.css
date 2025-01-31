@@ -1,0 +1,123 @@
+* {
+    border-style: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-dark: #3E2A1F; /* Dark earthy brown with a warmer, cream touch */
+    --secondary-gold: #D1B17C; /* Lighter ancient gold with a creamy tone */
+    --light-parchment: #F5E8C7; /* Creamier aged parchment */
+    --dark-green: #6C7A4F; /* Lighter, sage green with a hint of cream */
+    --background-dark: #2A1C16; /* Dark shadow with a cream accent */
+    --text-light: #F4E1A1; /* Creamy old-paper text */
+    --background-color: var(--light-parchment); /* Soft parchment color */
+    --text-color: #4A4A4A; /* Soft contrast for readability */
+}
+
+body {
+    text-align: center;
+    background-color: var(--background-color); /* Applying new background color */
+    color: var(--text-color); /* Applying new text color */
+    font-family: cursive;
+}
+
+body p {
+    font-size: 16px;
+    margin: 1.2rem;
+}
+
+main {
+    width: 100vw;
+    height: auto;
+    background-color: var(--warm-sand); /* Lighter, creamier sand color */
+    background-size: cover; /* Ensures the image covers the div */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Keeps the image centered */
+}
+
+.custom-guild-pages h1,
+.custom-guild-pages p {
+    margin: 1rem;
+    color: var(--primary-dark); /* Applying dark earthy brown to headings and paragraphs */
+}
+
+
+
+
+
+
+.image-link-container{
+    background-color: var(--misty-beige);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End of Projects */
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .image-link-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-links p {
+        font-size: 0.9rem;
+    }
+
+    .member {
+        width: 90%;
+    }
+
+    .projects-container {
+        text-align: center;
+    }
+    .change-background-buttons-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 0.5rem;
+    }
+
+    .div-links p {
+        font-size: 0.8rem;
+    }
+
+    .logo-image {
+        max-width: 80px;
+    }
+
+    .header-image{
+        width:100%;
+        height:10vh;
+    }
+
+    .member {
+        padding: 0.5rem;
+    }
+
+    .projects ul {
+        padding: 0;
+        font-size: 0.9rem;
+    }
+   
+}

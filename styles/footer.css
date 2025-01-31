@@ -1,0 +1,21 @@
+:root {
+  --primary-dark: #3E2A1F; /* Dark earthy brown with a warmer, cream touch */
+  --secondary-gold: #D1B17C; /* Lighter ancient gold with a creamy tone */
+  --light-parchment: #F5E8C7; /* Creamier aged parchment */
+  --dark-green: #6C7A4F; /* Lighter, sage green with a hint of cream */
+  --background-dark: #2A1C16; /* Dark shadow with a cream accent */
+  --text-light: #F4E1A1; /* Creamy old-paper text */
+  --background-color: var(--light-parchment); /* Soft parchment color */
+  --text-color: #4A4A4A; /* Soft contrast for readability */
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-dark);
+    color: var(--light-parchment); /* Soft text color for better readability */
+    text-align: center;
+    padding: 20px;
+    font-family: 'Cormorant Garamond', serif; /* Elegant serif font for footer */
+}
+
+
