@@ -30,10 +30,12 @@ const gamerLogoInsertionContainer = document.querySelector('.custom-gamer-logo-i
 
     const gamerLogoInsertionContainerImages = document.querySelectorAll('.custom-gamer-logo-insertion img');
 
-    gamerLogoSrcs.forEach((img)=>{
+     gamerLogoSrcs.forEach((img)=>{
         const imgElement = document.createElement('img');
         imgElement.classList.add('gamer-logo');
         imgElement.src = img.src;
         imgElement.alt = img.name;
+        imgElement.loading = 'lazy'; // This enables lazy loading
         gamerLogoInsertionContainer.appendChild(imgElement);
     })
+
