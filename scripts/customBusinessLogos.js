@@ -25,10 +25,11 @@ const businessLogoInsertionContainer = document.querySelector('.custom-business-
 
     const businessLogoInsertionContainerImages = document.querySelectorAll('.custom-business-logo-insertion img');
 
-    businessLogoSrcs.forEach((img)=>{
+     businessLogoSrcs.forEach((img) => {
         const imgElement = document.createElement('img');
         imgElement.classList.add('business-logo');
         imgElement.src = img.src;
         imgElement.alt = img.name;
+        imgElement.loading = 'lazy'; // This enables lazy loading
         businessLogoInsertionContainer.appendChild(imgElement);
-    })
+    });
